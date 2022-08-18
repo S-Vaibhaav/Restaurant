@@ -533,6 +533,12 @@ function deleteFavourite() {
         deleteFavourite.send(JSON.stringify(favourite));
     }
 }
+
+function Listener(){
+    const audio = new Audio();
+    audio.src ="Audio/speech_20220818164411797.mp3" ;
+    audio.play();
+}
 // check if user has already favourited this restaurant, and show the appropriate icons
 function checkFavourites() {
     var checkFavourites = new XMLHttpRequest();
