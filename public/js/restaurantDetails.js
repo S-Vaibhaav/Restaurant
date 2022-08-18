@@ -35,7 +35,7 @@ function getDetails() {
 
 function Listener(){
     const audio = new Audio();
-    audio.src ="C:\Users\Vaibhaav\Documents\Tamasek Poly\Year 2\Cloud\New folder\restaurantReview\restaurantReview\public\Audio\speech_20220818164411797.mp3" ;
+    audio.src ="Audio/speech_20220818164411797.mp3" ;
     audio.play();
 }
 
