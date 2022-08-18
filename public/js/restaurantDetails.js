@@ -32,6 +32,14 @@ function getDetails() {
     getRatingInformation();
     storeLikedReviews();
 }
+
+function Listener(){
+    const audio = new Audio();
+    audio.src ="C:\Users\Vaibhaav\Documents\Tamasek Poly\Year 2\Cloud\New folder\restaurantReview\restaurantReview\public\Audio\speech_20220818164411797.mp3" ;
+    audio.play();
+}
+
+
 // function to show restaurant's location on google map
 function showMap() {
     longtitude = sessionStorage.getItem("longtitude")
