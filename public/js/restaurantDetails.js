@@ -33,11 +33,6 @@ function getDetails() {
     storeLikedReviews();
 }
 
-function Listener(){
-    const audio = new Audio();
-    audio.src ="Audio/speech_20220818164411797.mp3" ;
-    audio.play();
-}
 
 
 // function to show restaurant's location on google map
